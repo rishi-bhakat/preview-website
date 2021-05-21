@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+.links {
+    display: inline;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.links:hover {
+    text-decoration: underline;
+    font-size: 35px;
+}
+.nav {
+    background-color: white;
+    left: 0;
+    box-shadow: 0 5px 6px rgb(32 33 36 / 30%);
+}
+.line {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+.head {
+    font-family: Calibri;
+    font-size: 60px;
+}
+.para {
+    font-family: cursive;
+    font-size: 23px;
+}
+.nav {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.img1 {
+   border-radius: 200px; 
+   width: 250px; 
+   height: 250px;
+}
+#HOME {
+    padding-top: 50px;
+    padding-bottom: 1px;
+    background: linear-gradient(#b5ffc1 0% , #00c420 100%);
+    opacity: 1;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px black;
+}
+#about {
+    background: linear-gradient(lightblue 0% , blue 100%);
+    padding: 10px 10px;
+    padding-bottom: 655px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+#achi {
+    background: linear-gradient(pink 0% , purple 100%);
+    padding: 1px 8px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 637px;
+}
+.contact_1 a {
+    text-shadow: none;
+    font-size: 18px;
+}
+
+.contact_1 h3 {
+    display: inline;
+    font-family: Segoe UI;
+    font-weight: 400;
+    color: black;
+}
+#cont {
+    background: linear-gradient(#fff9b5 0% , #fff9b5 100%);
+    padding: 5px 10px;
+    padding-top: 30px;
+    padding-bottom: 555px;
+}
+/*Mobile*/
+@media only screen and (max-width:500px) {
+    #HOME {
+        padding-top: 70px;
+        padding-bottom: 9874px;
+    }
+    #about {
+        padding-bottom: 100px;
+    }
+}
+/*Tablets*/
+@media only screen and (max-width:1000px) {
+    .nav {
+        text-align: center;
+        padding-left: 0;
+    }
+    .img1 {
+        width: 300px;
+        height: 300px;
+        border-radius: 200px;
+    }
+    .para {
+        font-size: 25px;
+    }
+    #cont a {
+        font-size: 25px;
+    }
+    .head {
+        font-size: 50px;
+    }
+    .links {
+        font-size: 23px;
+    }
+    .links:hover {
+        font-size: 25px;
+    }
+    #HOME {
+        padding-bottom: 329px;
+    }
+    #about {
+        padding-bottom: 81%;
+    }
+    #achi {
+        padding-bottom: 85%;
+    }
+    #cont {
+        padding-bottom: 84%;
+    }
+}
+/*Mobiles*/
+@media only screen and (max-width:370px) {
+    #HOME {
+        padding-bottom: 1;
+        padding-top: 100px;
+    }
+    #about {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #achi h1 {
+        font-size: 40px;
+    }
+    #achi {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    #cont h3 {
+        font-size: 22px;
+    }
+    #cont {
+        padding-top: 50px;
+        padding-bottom: 155px;
+    }
+    .img1 {
+        width: 250px;
+        height: 250px;
+    }
+    .links {
+        font-size: 10px;
+    }
+    .links:hover {
+        font-size: 15px;
+    }
+}
+/*idk*/
+@media only screen and (max-width:500px) {
+    #HOME {
+        padding-bottom: 1px;
+    }
+    #about {
+        padding-top: 20px;
+        padding-bottom: 255px;
+    }
+    #achi {
+        padding-top: 20px;
+        padding-bottom: 286px;
+    }
+    #cont {
+        padding-top: 30px;
+        padding-bottom: 380px;
+    }
+    #cont h3 {
+        font-size: 25px;
+    }
+}
+/*Mobiles 370 to 400px*/
+@media only screen and (max-width:400px) {
+    #HOME {
+        padding-top: 100px;
+        padding-bottom: 1px;
+    }
+    #about {
+        padding-top: 50px;
+        padding-bottom: 180px;
+    }
+    #achi {
+        padding-top: 50px;
+        padding-bottom: 153px;
+    }
+    #cont {
+        padding-top: 50px;
+        padding-bottom: 325px;
+    }
+    #cont h3 {
+        font-size: 23px;
+    }
+    .links:hover {
+        font-size: 15px;
+    }
+}
+/*noobTabs*/
+@media only screen and (max-width:624px) {
+    #HOME {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+    #about {
+        padding-top: 20px;
+        padding-bottom: 315px;
+    }
+    #achi {
+        padding-top: 30px;
+        padding-bottom: 340px;
+    }
+    #cont {
+        padding-top: 20px;
+        padding-bottom: 356px;
+    }
+    #cont h3 {
+        font-size: 24px;
+    }
+}
+/*nooob tabs lel*/
+@media only screen and (max-width:638px) {
+    .links {
+        font-size: 18px;
+    }
+}
